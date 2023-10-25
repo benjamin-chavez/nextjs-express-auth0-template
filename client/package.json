@@ -1,0 +1,50 @@
+{
+  "name": "nextjs-client",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The frontend of the Next.js-Express-Auth0 integration template. It utilizes Next.js for server-side rendering and integrates with Auth0 for user authentication.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "example",
+    "nextjs",
+    "auth0",
+    "template",
+    "frontend",
+    "react",
+    "typescript",
+    "tailwindcss"
+  ],
+  "author": {
+    "name": "Ben Chavez",
+    "email": "ben.m.chavez@gmail.com",
+    "url": "https://benjamin-chavez.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjamin-chavez/node-pg-knex-passport-template"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@auth0/nextjs-auth0": "^3.2.0",
+    "concurrently": "^8.2.1",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8",
+    "tailwindcss": "^3",
+    "typescript": "^5"
+  }
+}

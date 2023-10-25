@@ -1,0 +1,49 @@
+{
+  "name": "expressjs-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The backend of the Next.js-Express-Auth0 integration template. It's built using Express.js and provides API endpoints, authentication routes, and middleware configurations.",
+  "scripts": {
+    "start": "nodemon src/server.ts"
+  },
+  "keywords": [
+    "example",
+    "express",
+    "auth0",
+    "template",
+    "backend",
+    "api",
+    "typescript"
+  ],
+  "author": {
+    "name": "Ben Chavez",
+    "email": "ben.m.chavez@gmail.com",
+    "url": "https://benjamin-chavez.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjamin-chavez/node-pg-knex-passport-template"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cookie-parser": "~1.4.6",
+    "debug": "~4.3.4",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-flash": "^0.0.2",
+    "express-list-endpoints": "^6.0.0",
+    "morgan": "~1.10.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.3",
+    "@types/express": "^4.17.17",
+    "@types/express-flash": "^0.0.2",
+    "@types/express-list-endpoints": "^6.0.0",
+    "@types/morgan": "^1.9.5",
+    "@types/node": "^20.5.9",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}

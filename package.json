@@ -1,0 +1,38 @@
+{
+  "name": "nextjs-express-auth0-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A template project integrating Next.js with Express.js using Auth0 for authentication. This repository contains configurations and scripts for both the client and server, ensuring seamless development and deployment.",
+  "main": "index.js",
+  "scripts": {
+    "client": "cd client && pnpm run dev",
+    "server": "cd server && pnpm run start",
+    "postinstall": "(cd client && pnpm install); (cd server && pnpm install)",
+    "dev": "concurrently \"pnpm run client\" \"pnpm run server\""
+  },
+  "keywords": [
+    "example",
+    "template",
+    "fullstack",
+    "nextjs",
+    "react",
+    "express",
+    "auth0",
+    "frontend",
+    "backend",
+    "typescript"
+  ],
+  "author": {
+    "name": "Ben Chavez",
+    "email": "ben.m.chavez@gmail.com",
+    "url": "https://benjamin-chavez.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/benjamin-chavez/node-pg-knex-passport-template"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.1"
+  }
+}
