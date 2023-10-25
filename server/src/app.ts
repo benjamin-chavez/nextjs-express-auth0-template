@@ -1,5 +1,8 @@
 // server/src/app.ts
 
+import 'dotenv/config';
+
+import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import express from 'express';
 import flash from 'express-flash';
@@ -10,18 +13,21 @@ import {
 } from './middleware/errorMiddleware';
 import listEndpoints from 'express-list-endpoints';
 import routes from './routes/index';
+import { checkJwt } from './middleware/authMiddleware';
 
 const app = express();
+const baseUrl = process.env.AUTH0_BASE_URL;
 
 app.use(morgan('dev'));
+app.use(cors({ origin: baseUrl }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(flash());
 
-app.use('/api', routes);
-app.get('/api/routes', (req, res) => {
-  res.status(200).send(listEndpoints(app));
+app.use('/api', checkJwt, routes);
+app.get('/api/private-route', checkJwt, (req, res) => {
+  res.status(200).send({ message: 'This is a private route' });
 });
 
 app.use(notFoundHandler);
