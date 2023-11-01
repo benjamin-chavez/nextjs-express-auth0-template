@@ -6,9 +6,15 @@
   "main": "index.js",
   "scripts": {
     "client": "cd client && pnpm run dev",
-    "server": "cd server && pnpm run start",
+    "server": "cd server && pnpm run dev",
     "postinstall": "(cd client && pnpm install); (cd server && pnpm install)",
-    "dev": "concurrently \"pnpm run client\" \"pnpm run server\""
+    "dev": "concurrently \"pnpm run client\" \"pnpm run server\"",
+    "start": "npm run start:client & npm run start:server",
+    "start:client": "cd client && npm run dev",
+    "start:server": "cd server && npm run dev",
+    "build": "npm run build:client & npm run build:server",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build"
   },
   "keywords": [
     "example",
@@ -18,20 +24,23 @@
     "react",
     "express",
     "auth0",
-    "frontend",
-    "backend",
-    "typescript"
+    "typescript",
+    "node"
   ],
   "author": {
     "name": "Ben Chavez",
     "email": "ben.m.chavez@gmail.com",
-    "url": "https://benjamin-chavez.com/"
+    "url": "https://benjamin-chavez.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/benjamin-chavez/node-pg-knex-passport-template"
+    "url": "https://github.com/benjamin-chavez/nextjs-express-auth0-template"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=18.15.0",
+    "pnpm": ">=8.8.0"
+  },
   "devDependencies": {
     "concurrently": "^8.2.1"
   }
