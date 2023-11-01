@@ -5,7 +5,9 @@
   "description": "The backend of the Next.js-Express-Auth0 integration template. It's built using Express.js and provides API endpoints, authentication routes, and middleware configurations.",
   "homepage": "https://benjamin-chavez.com/blog/integrating-next.js-with-express.js-using-auth0-for-authentication",
   "scripts": {
-    "start": "nodemon src/server.ts"
+    "start": "node dist/server.js",
+    "dev": "nodemon --watch 'src/**/*' -e ts,tsx --exec ts-node src/server.ts",
+    "build": "tsc"
   },
   "keywords": [
     "example",
@@ -27,6 +29,10 @@
     "url": "https://github.com/benjamin-chavez/nextjs-express-auth0-template"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=18.15.0",
+    "pnpm": ">=8.8.0"
+  },
   "dependencies": {
     "cookie-parser": "~1.4.6",
     "cors": "^2.8.5",

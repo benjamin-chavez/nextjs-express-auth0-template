@@ -31,6 +31,10 @@
     "url": "https://github.com/benjamin-chavez/nextjs-express-auth0-template"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=18.15.0",
+    "pnpm": ">=8.8.0"
+  },
   "dependencies": {
     "@auth0/nextjs-auth0": "^3.2.0",
     "concurrently": "^8.2.1",

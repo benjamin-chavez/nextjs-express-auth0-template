@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "client": "cd client && pnpm run dev",
-    "server": "cd server && pnpm run start",
+    "server": "cd server && pnpm run dev",
     "postinstall": "(cd client && pnpm install); (cd server && pnpm install)",
     "dev": "concurrently \"pnpm run client\" \"pnpm run server\""
   },
@@ -31,6 +31,10 @@
     "url": "https://github.com/benjamin-chavez/nextjs-express-auth0-template"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=18.15.0",
+    "pnpm": ">=8.8.0"
+  },
   "devDependencies": {
     "concurrently": "^8.2.1"
   }
