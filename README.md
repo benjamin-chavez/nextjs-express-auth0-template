@@ -30,7 +30,6 @@ to build this template application. -->
 
    ```bash
    git clone git@github.com:benjamin-chavez/nextjs-express-auth0-template.git
-   cd template-next-express-auth0-ts-tailwind
    ```
 
 2. **Install Dependencies**
@@ -42,8 +41,8 @@ to build this template application. -->
 3. **Setup Auth0**
 
    - Create an account on [Auth0](https://auth0.com/).
-   - Set up a new Application and API.
-   - Update the `.env` file with your Auth0 credentials.
+   - In Auth0, set up a Next.js Application and an Express API.
+   - Update the `.env` files with your Auth0 credentials.
 
 4. **Run the Development Server**
 
@@ -53,7 +52,7 @@ to build this template application. -->
 
    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Deployment
+<!-- ## Deployment
 
 - Build the application for production:
 
@@ -65,11 +64,11 @@ to build this template application. -->
 
   ```bash
   pnpm start
-  ```
+  ``` -->
 
-## Contributing
+<!-- ## Contributing
 
-Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first.
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) first. -->
 
 ## License
 
