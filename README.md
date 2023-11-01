@@ -24,6 +24,7 @@ to build this template application. -->
 - **TypeScript**: Static typing for JavaScript, enhancing development experience and maintainability.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 
+## Getting Started
 
 1. **Clone the Repository**
 
