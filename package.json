@@ -8,7 +8,13 @@
     "client": "cd client && pnpm run dev",
     "server": "cd server && pnpm run dev",
     "postinstall": "(cd client && pnpm install); (cd server && pnpm install)",
-    "dev": "concurrently \"pnpm run client\" \"pnpm run server\""
+    "dev": "concurrently \"pnpm run client\" \"pnpm run server\"",
+    "start": "npm run start:client & npm run start:server",
+    "start:client": "cd client && npm run dev",
+    "start:server": "cd server && npm run dev",
+    "build": "npm run build:client & npm run build:server",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build"
   },
   "keywords": [
     "example",

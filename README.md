@@ -52,7 +52,7 @@ to build this template application. -->
 
    Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-<!-- ## Deployment
+## Deployment
 
 - Build the application for production:
 
@@ -64,7 +64,7 @@ to build this template application. -->
 
   ```bash
   pnpm start
-  ``` -->
+  ```
 
 <!-- ## Contributing
 
