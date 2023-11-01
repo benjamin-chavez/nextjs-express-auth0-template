@@ -29,9 +29,6 @@ dependencies:
   express-jwt:
     specifier: ^8.4.1
     version: 8.4.1
-  express-list-endpoints:
-    specifier: ^6.0.0
-    version: 6.0.0
   jwks-rsa:
     specifier: ^3.1.0
     version: 3.1.0
@@ -472,11 +469,6 @@ packages:
       '@types/jsonwebtoken': 9.0.4
       express-unless: 2.1.3
       jsonwebtoken: 9.0.2
-    dev: false
-
-  /express-list-endpoints@6.0.0:
-    resolution: {integrity: sha512-1I30bSVego+AU/eSsX/bV2xrOXW5tFhsuXZp7wZd9396bAAxH7KHaAwLXQYra0Aw33xA67HmNiceGf2SOvXaLg==}
-    engines: {node: '>=10'}
     dev: false
 
   /express-unless@2.1.3:
