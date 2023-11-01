@@ -24,7 +24,11 @@ to build this template application. -->
 - **TypeScript**: Static typing for JavaScript, enhancing development experience and maintainability.
 - **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
 
-## Getting Started
+3. **Start Coding!**
+
+   You're now ready to start the tutorial. Head over to the [blog post](https://benjamin-chavez.com/blog/integrating-next.js-with-express.js-using-auth0-for-authentication) to begin.
+
+## License
 
 1. **Clone the Repository**
 
