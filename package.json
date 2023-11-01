@@ -18,18 +18,17 @@
     "react",
     "express",
     "auth0",
-    "frontend",
-    "backend",
-    "typescript"
+    "typescript",
+    "node"
   ],
   "author": {
     "name": "Ben Chavez",
     "email": "ben.m.chavez@gmail.com",
-    "url": "https://benjamin-chavez.com/"
+    "url": "https://benjamin-chavez.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/benjamin-chavez/node-pg-knex-passport-template"
+    "url": "https://github.com/benjamin-chavez/nextjs-express-auth0-template"
   },
   "license": "MIT",
   "devDependencies": {

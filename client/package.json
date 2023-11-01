@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "description": "The frontend of the Next.js-Express-Auth0 integration template. It utilizes Next.js for server-side rendering and integrates with Auth0 for user authentication.",
+  "homepage": "https://benjamin-chavez.com/blog/integrating-next.js-with-express.js-using-auth0-for-authentication",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -17,16 +18,17 @@
     "frontend",
     "react",
     "typescript",
+    "node",
     "tailwindcss"
   ],
   "author": {
     "name": "Ben Chavez",
     "email": "ben.m.chavez@gmail.com",
-    "url": "https://benjamin-chavez.com/"
+    "url": "https://benjamin-chavez.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/benjamin-chavez/node-pg-knex-passport-template"
+    "url": "https://github.com/benjamin-chavez/nextjs-express-auth0-template"
   },
   "license": "MIT",
   "dependencies": {
