@@ -18,13 +18,11 @@ to build this template application. -->
 
 ## Features
 
-- <a href="https://nextjs.org/" target="_blank"><strong>Next.js</strong></a>: For server-side rendered React applications.
-- <a href="https://expressjs.com/" target="_blank"><strong>Express.js</strong></a>: Backend server handling API requests and other server-side logic.
-- <a href="https://auth0.com/" target="_blank"><strong>Auth0</strong></a>: Secure and scalable authentication and authorization.
-- <a href="https://www.typescriptlang.org/" target="_blank"><strong>TypeScript</strong></a>: Static typing for JavaScript, enhancing development experience and maintainability.
-- <a href="https://tailwindcss.com/" target="_blank"><strong>Tailwind CSS</strong></a>: Utility-first CSS framework for rapid UI development.
-
-
+- [**Next.js**](https://nextjs.org/): For server-side rendered React applications.
+- [**Express.js**](https://expressjs.com/): Backend server handling API requests and other server-side logic.
+- [**Auth0**](https://auth0.com/): Secure and scalable authentication and authorization.
+- [**TypeScript**](https://www.typescriptlang.org/): Static typing for JavaScript, enhancing development experience and maintainability.
+- [**Tailwind CSS**](https://tailwindcss.com/): Utility-first CSS framework for rapid UI development.
 
 ## Getting Started
 
